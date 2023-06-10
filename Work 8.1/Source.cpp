@@ -74,7 +74,7 @@ int main() {
 		}
 		else {
 			int year;
-			cout << "¬ведите категорию: ";
+			cout << "¬ведите год издани€: ";
 			cin >> year;
 
 			cout << book->find_book_year(year, book, size) << endl;  
